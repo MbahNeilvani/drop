@@ -24,11 +24,10 @@ padding-right: 80px;
 }
 
 #nav_bar{
-    margin: auto;
+    margin: 0 auto;
     margin-top: 40px;
     padding: 20px 0px;
     width: 95%;
-    border: 1px solid black;
 }
 
 .nav{
@@ -54,15 +53,16 @@ padding-right: 80px;
 .right_nav > ul > li + li > a{
     display: block;
     padding: 0px 15px;
-    border: 3px solid hsl(0, 0%, 8%);
+    border: 1px solid hsl(0, 0%, 8%);
     border-radius: 9px;
 }
 
 #main{
     display: flex;
     margin: auto;
-    width: 80%;
-    background-color: red;
+    margin-top: 25px;
+    width: 85%;
+    height: 650px;
 }
 
 .remote_work{
@@ -70,9 +70,16 @@ padding-right: 80px;
 }
 
 .main_img{
-    width: 30%;
+    margin: auto;
+    width: 90%;
+    height: 650px;
+    background-image: url(../img/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
-.main_img img{
-    width: 30%;
+.right_box{
+    border: 1px solid blue;
+    padding-right: 600px;
 }
