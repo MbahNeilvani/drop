@@ -123,3 +123,13 @@ padding-right: 80px;
 .social img{
     padding-right: 45px;
 }
+
+.com a, .fea a{
+    padding-right: 15px;
+}
+
+.list img{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
