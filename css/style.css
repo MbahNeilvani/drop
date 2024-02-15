@@ -28,6 +28,7 @@ padding-right: 80px;
     margin: 0 auto;
     margin-top: 40px;
     padding: 20px 0px;
+    position: relative;
     width: 95%;
 }
 
@@ -128,8 +129,16 @@ padding-right: 80px;
     padding-right: 15px;
 }
 
+.list{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    /* z-index: 1; */
+}
+
 .list img{
     margin: 0;
     padding: 0;
+    width: 20%;
     flex-direction: column;
 }
