@@ -29,6 +29,39 @@ a{
     border: 1px solid blue;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_nav{
+    display: flex;
+    
+}
+
+.dropdown1{
+    padding-left: 120px;
+}
+
+.dropdown2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.others{
+    padding-right: 30px;
+}
+
+.dropdown1_content, .dropdown2_content{
+    display: none;
+}
+
+.right_nav a{
+    padding-left: 30px;
+}
+
+
+
 /* .left_nav img{
     padding-right: 80px;
     }
