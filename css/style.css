@@ -20,17 +20,18 @@ a{
     color: hsl(0, 0%, 41%);
 }
 
-.left_nav img{
-padding-right: 80px;
-}
-
 #nav_bar{
     margin: 0 auto;
     margin-top: 40px;
     padding: 20px 0px;
     position: relative;
     width: 95%;
+    border: 1px solid blue;
 }
+
+/* .left_nav img{
+    padding-right: 80px;
+    }
 
 .nav{
     display: flex;
@@ -57,7 +58,7 @@ padding-right: 80px;
     padding: 0 20px;
     border: 1px solid hsl(0, 0%, 8%);
     border-radius: 9px;
-}
+} */
 
 #main{
     display: flex;
