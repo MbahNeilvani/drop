@@ -1,3 +1,4 @@
+/* general */
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +9,11 @@
     text-decoration: none;
 }
 
+a{
+    font-size: 20px;
+    color: hsl(0, 0%, 41%);
+}
+
 li{
     font-size: 20px;
     font-weight: bold;
@@ -15,28 +21,25 @@ li{
     text-decoration: none;
 }
 
-a{
-    font-size: 20px;
-    color: hsl(0, 0%, 41%);
-}
+/* nav_bar */
 
 #nav_bar{
     margin: 0 auto;
     margin-top: 40px;
+    color: hsl(0, 0%, 41%);
     padding: 20px 0px;
     position: relative;
     width: 95%;
-    border: 1px solid blue;
 }
 
 .nav{
     display: flex;
+    font-size: 20px;
     justify-content: space-between;
 }
 
 .left_nav{
     display: flex;
-    
 }
 
 .dropdown1{
@@ -54,44 +57,28 @@ a{
 
 .dropdown1_content, .dropdown2_content{
     display: none;
+    background-color: rgb(202, 218, 248);
+    padding: 15px 0;
+    flex-direction: column;
+}
+
+.dropdown1_content img{
+    padding: 8px 0;
+}
+
+.dropdown1_content a{
+    padding: 5px 0;
+}
+
+.dropdown1_content img{
+    padding-right: 15px;
 }
 
 .right_nav a{
     padding-left: 30px;
 }
 
-
-
-/* .left_nav img{
-    padding-right: 80px;
-    }
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-.left_nav, ul{
-    display: flex;  
-}
-
-.left_nav ul li{
-    display: flex;
-    padding-right: 70px;
-}
-
-.right_nav > ul >li+li{
-    display: flex;
-    padding: 0 0 0 70px;
-    justify-content: center;
-}
-
-.right_nav > ul > li + li > a{
-    display: block;
-    padding: 0 20px;
-    border: 1px solid hsl(0, 0%, 8%);
-    border-radius: 9px;
-} */
+/* main body */
 
 #main{
     display: flex;
@@ -139,7 +126,7 @@ a{
 
 .btn{
     margin-right: 640px;
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 16px 0;
     font-size: 23px;
     font-weight: 700px;
@@ -167,7 +154,6 @@ a{
     display: flex;
     height: 100px;
     flex-direction: column;
-    /* z-index: 1; */
 }
 
 .list img{
@@ -175,4 +161,28 @@ a{
     padding: 0;
     width: 20%;
     flex-direction: column;
+}
+
+/* In Active state */
+
+.btn:hover{
+    background-color: #fff;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.nav:hover{
+    cursor: pointer;
+}
+
+.dropbtn:hover, .others:hover, .right:hover{
+    color: black;
+}
+
+#register:hover{
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 15px;
 }
