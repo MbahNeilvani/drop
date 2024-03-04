@@ -24,6 +24,7 @@ li{
 /* nav_bar */
 
 #nav_bar{
+    display: flex;
     margin: 0 auto;
     margin-top: 40px;
     color: hsl(0, 0%, 41%);
@@ -35,7 +36,12 @@ li{
 .nav{
     display: flex;
     font-size: 20px;
+    width: 100%;
     justify-content: space-between;
+}
+
+#burger{
+    display: none;
 }
 
 .left_nav{
@@ -185,4 +191,12 @@ li{
     border: 2px solid black;
     border-radius: 10px;
     padding: 8px 15px;
+}
+
+/* Media Queries */
+
+@media (max-width:375px) {
+    body{
+        
+    }
 }
